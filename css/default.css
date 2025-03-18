@@ -1,0 +1,29 @@
+:root {
+    --brand: #01b5fb;
+    --sub: #6ac754;
+    --body: #516171;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/*** Appointment  Start ***/
+.appointment {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.appointment .appointment-form {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .4));
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.appointment .appointment-time {
+    background: linear-gradient(rgba(241, 72, 72, 0.5), rgba(241, 59, 59, 0.5));
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+/*** Appointment End ***/
